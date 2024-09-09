@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link href="./style/bootstrap.css" rel="stylesheet">
+  <!-- style -->
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <header>
+    <nav class="navbar navbar-1 fixed-top d-flex justify-content-center">
+      <div class="container">
+        <div class="row d-xl-flex d-md-flex d-none w-100 justify-content-between">
+          <div class="col-xl-1 col-md-2">
+            <div class="navbar-logo"><img class="img-fluid" src="./img/Logo.png" alt=""></div>
+          </div>
+          <div class="col-xl-5 col-md-8 d-flex justify-content-end align-items-end">
+            <div class="navbar-links">
+              <ul class="d-flex gap-4">
+                <li><a class="text-decoration-none text-black" href="#">About</a></li>
+                <li><a class="text-decoration-none" href="#">Services</a></li>
+                <li><a class="text-decoration-none" href="#">Projects</a></li>
+                <li><a class="text-decoration-none" href="#">Team</a></li>
+                <li><a class="text-decoration-none" href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a class="navbar-brand d-xl-none d-md-none d-flex" href="#"><img src="./img/Logo.png" alt=""></a>
+        <button class="navbar-toggler d-xl-none d-md-none d-flex" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </nav>
+  </header>
+  <!-- navbar end -->
+  <!-- header -->
+    <div class="header ">
+      <div class="container position-relative ">
+        <div class="row justify-content-between z-3 position-relative">
+          <div class="col-8">
+            <h1>Architecture. Planning. Design.</h1>
+          </div>
+          <div class="col-2 padding d-flex flex-column align-items-end">
+            <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+              Contact Us
+              <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+                <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+              </div>
+            </button>
+            <div class="icons d-flex ">
+              <a href="" class="icon text-black"><i class="fa-brands fa-instagram"></i></a>
+              <a href="" class="icon text-black"><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class="icon text-black"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row position-absolute img-1">
+          <div class="col-xl-12 col-md-12 col-12 ">
+            <img class="img-fluid" src="./img/header-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- header end -->
+  <!-- history -->
+  <div class="history">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <h2 class="text-center">Forming an irrational love between clients and their buildings </h2>
+        </div>
+        <div class="col-5 mt-5">
+          <p class="history-text text-center">Our approach starts with... <br> How do you want to make people feel?</p>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <div class="history-img">
+            <img class="img-fluid" src="./img/history-img-1.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="history-img">
+            <img class="img-fluid" src="./img/history-img-2.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="history-img">
+            <img class="img-fluid" src="./img/history-img-3.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 d-flex flex-column align-items-center">
+          <p class="history-text text-center">In the face of changing trends and technologies, ARK House creates architecture that remains relevant - not based on trends, fads or dates - but on timeless human truths.</p>
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Contact Us
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- history  end-->
+  <!-- Services  -->
+  <div class="Services d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <h2>Services</h2>
+        </div>
+        <div class="col-3  d-flex justify-content-end padding align-items-center">
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Discover All
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="line mt-4"></div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-5 padding d-flex flex-column align-items-center">
+          <h1 class="text">3</h1>
+          <h3 class="history-big-text text-center">Offices around the world</h3>
+        </div>
+        <div class="col-2">
+          <p class="history-p ">Architecture</p>
+          <p class="history-p ">Landscape</p>
+          <p class="history-p ">Interior</p>
+          <p class="history-p ">Design</p>
+        </div>
+        <div class="col-5 padding">
+          <div class="history-img ">
+            <img class="img-fluid" src="./img/history-img.png" alt="">
+          </div>
+          <div class="history-right-text mt-3">
+            <p >At the heart of everything we do is the human experience to feel. To love. To image. To wonder. To guide. To jest. To rule. To serve. To belong.</p>
+          </div>
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Discover All
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services end -->
+  <!-- project -->
+  <div class="project d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-6">
+          <h2>Recent Projects</h2>
+        </div>
+        <div class="col-3  d-flex justify-content-end padding align-items-center">
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Discover All
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="container mt-5">
+      <div class="row justify-content-between">
+        <div class="col-8">
+          <img class="img-fluid mt-3" src="./img/project-img-1.png" alt="">
+          <h4 class="project-h4">UVU Classroom Building</h4>
+          <p class="project-p">Omer, UT</p>
+        </div>
+        <div class="col-4">
+          <img class="img-fluid" src="./img/project-img-2.png" alt="">
+          <h4 class="project-h4">Thomas S. Monson Center</h4>
+          <p class="project-p">Salt Lake City, UT</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <img class="img-fluid mt-5" src="./img/project-img-3.png" alt="">
+          <h4 class="project-h4">USU Swaner Preserve and Ecocenter</h4>
+          <p class="project-p">Logan, UT</p>
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+          <h1 class="project-h1">45</h1>
+          <h2 class="project-h2 text-center">Yeas of architecture, planning, design</h2>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-between">
+        <div class="col-3">
+          <img class="img-fluid" src="./img/project-img-4.png" alt="">
+          <h4 class="project-h4">UVU Fulton Library</h4>
+          <p class="project-p">Orem, UT</p>
+        </div>
+        <div class="col-8  ">
+          <img class="img-fluid" src="./img/project-img-5.png" alt="">
+          <h4 class="project-h4">USU College of Agriculture</h4>
+          <p class="project-p">Logan, UT</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-6">
+          <img class="img-fluid" src="./img/project-img-6.png" alt="">
+          <h4 class="project-h4">UVU Fulton Library</h4>
+          <p class="project-p">Orem, UT</p>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="./img/project-img-7.png" alt="">
+          <h4 class="project-h4">UVU Fulton Library</h4>
+          <p class="project-p">Orem, UT</p>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-8">
+          <img class="img-fluid" src="./img/project-img-8.png" alt="">
+          <h4 class="project-h4">Unified State Laboratory - Module </h4>
+          <p class="project-p">Salt Lake City, U</p>
+        </div>
+        <div class="col-3">
+          <img class="img-fluid" src="./img/project-img-9.png" alt="">
+          <h5 class="project-h5">U of U Sutton Geology and Geophysics</h5>
+          <p class="project-p">Salt Lake City, UT</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+          <h1 class="project-h1">25</h1>
+          <h2 class="project-h2 text-center">With over 2.600 projects completed</h2>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid mt-5" src="./img/project-img-10.png" alt="">
+          <h4 class="project-h4">S - Line</h4>
+          <p class="project-p">Salt Lake City, UT</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-5 d-flex flex-column justify-content-center align-items-center">
+          <h1>Start a Project ? </h1>
+          <button class="allButton mt-4 d-flex d-flex align-items-center justify-content-end   gap-3">
+            Contact Us
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- project end -->
+  <!-- team -->
+  <div class="team d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <h2>Our team</h2>
+        </div>
+        <div class="col-3  d-flex justify-content-end padding align-items-center">
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Show All
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="line mt-4"></div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-8">
+          <p class="team-p">Our team of expert architects and builders, with over 45 years of combined experience, will bring your vision to life. Trust us to deliver functional and beautiful structures that exceed expectations.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <p class="team-p1">Management</p>
+          <p class="team-p1">Architects</p>
+          <p class="team-p1">Engineers</p>
+          <p class="team-p1">Builders</p>
+        </div>
+        <div class="col-10">
+          <div class="row justify-content-between w-100">
+            <div class="col-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-1.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Jane Cooper</h6>
+                  <p class="team-p">Art Director</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-2.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Cameron Williamson</h6>
+                  <p class="team-p">Senior Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-3.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Brooklyn Simmons</h6>
+                  <p class="team-p">PR <Manager></Manager></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-4.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Jacob Jones</h6>
+                  <p class="team-p">Financial Director</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-5.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Jerome Bell</h6>
+                  <p class="team-p">Lead Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-4 ">
+              <div class="img-card">
+                <div class="img"><img class="img-fluid" src="./img/team-img-6.png" alt="">
+                </div>
+                <div class="text">
+                  <h6>Kristin Watson</h6>
+                  <p class="team-p">HR Manager</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- team end -->
+  <!-- blog -->
+  <div class="blog d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <h2>Blog</h2>
+        </div>
+        <div class="col-3  d-flex justify-content-end padding align-items-center">
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Show More
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-10 padding justify-content-end d-flex">
+          <div class="row w-100">
+            <div class="col-6">
+              <div class="Blog-card-item">
+                <div class="blog-img">
+                  <img class="img-fluid" src="./img/blog-img-1.png" alt="">
+                </div>
+                <div class="blog-text">
+                  <span>Nov 12, 2023</span>
+                  <h4>Design and architecture training</h4>
+                  <p>Designers and architects learn through a combination of formal education, practical experience, and continuing professional development. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="Blog-card-item">
+                <div class="blog-img">
+                  <img class="img-fluid" src="./img/blog-img-2.png" alt="">
+                </div>
+                <div class="blog-text">
+                  <span>Nov 01, 2023</span>
+                  <h4>Design of public spaces</h4>
+                  <p>Public space design focuses on creating functional, safe, and visually appealing areas that foster social connections, community involvement, and a strong sense of place.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blog end -->
+  <!-- project -->
+  <div class="project d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-5 d">
+          <h2>Start a Project?</h2>
+        </div>
+        <div class="col-3  d-flex justify-content-end padding align-items-center">
+          <button class="allButton d-flex d-flex align-items-center justify-content-end   gap-3">
+            Contact Us
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="container mt-5">
+      <div class="row justify-content-between">
+        <div class="col-5">
+          <h4 class="projects-h4">Support is available 24 hours</h4>
+          <button class="allButton mt-4 d-flex d-flex align-items-center justify-content-end   gap-3">
+            Contact Us
+            <div class="icon AllButtonIcon d-flex justify-content-center align-items-center">
+              <i class="fa-solid text-black fa-arrow-up-right-from-square"></i>
+            </div>
+          </button>
+        </div>
+        <div class="col-6 padding">
+          <div class="row w-100">
+            <div class="col-4">
+              <p>North</p>
+              <p>AFL Architects</p>
+              <p>St George's House</p>
+              <p>56 Peter Street</p>
+              <p>Manchester</p>
+              <p>M2 3NQ</p>
+              <p class="mt-5">+44 (0)161 236 6263</p>
+            </div>
+            <div class="col-4">
+              <p>North</p>
+              <p>AFL Architects</p>
+              <p>St George's House</p>
+              <p>56 Peter Street</p>
+              <p>Manchester</p>
+              <p>M2 3NQ</p>
+              <p class="mt-5">+44 (0)161 236 6263</p>
+            </div>
+            <div class="col-4">
+              <p>North</p>
+              <p>AFL Architects</p>
+              <p>St George's House</p>
+              <p>56 Peter Street</p>
+              <p>Manchester</p>
+              <p>M2 3NQ</p>
+              <p class="mt-5">+44 (0)161 236 6263</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <!-- project end -->
+  <!-- futter  -->
+  <div class="futter mt-5 d-flex flex-column align-items-center">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-5">
+          <ul class="d-flex gap-4">
+            <li><a class="text-decoration-none text-black" href="">About </a></li>
+            <li><a class="text-decoration-none text-black" href="">Service </a></li>
+            <li><a class="text-decoration-none text-black" href="">Projects</a></li>
+            <li><a class="text-decoration-none text-black" href="">Team</a></li>
+            <li><a class="text-decoration-none text-black" href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <div class="icon d-flex ">
+            <a href="" class="icon text-black"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="icon text-black"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="icon text-black"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="container futter-container">
+      <div class="row justify-content-between ">
+        <div class="col-4">
+          <p>© Copywriting | All Rights Reserved</p>
+        </div>
+        <div class="col-3 d-flex justify-content-end">
+          <p>Terms of Use | Privacy</p>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+  <!-- futter end -->
+</body>
+<!-- bootstrap js -->
+<script src="./javaScript/bootstrap.bundle.min.js"></script>
+<!-- main js -->
+<script src="./javaScript/main.js"></script>
+</html>

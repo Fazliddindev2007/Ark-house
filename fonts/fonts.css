@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Sfprotext;
+  src: url(./SFProText-Bold.ttf) format(truetype);
+  font-weight:700;
+}
+@font-face {
+  font-family: Sfprotext;
+  src: url(./SFProText-Medium.ttf) format(truetype);
+  font-weight:500;
+}
+
+@font-face {
+  font-family: Sfprotext;
+  src: url(./SFProText-Regular.ttf) format(truetype);
+  font-weight:400;
+}
+

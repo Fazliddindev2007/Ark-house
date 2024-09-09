@@ -1,0 +1,223 @@
+@import url(./fonts/fonts.css);
+*{
+  list-style: none;
+  font-family:Sfprotext ;
+  font-weight: 400;
+}
+/* navbar */
+.black{
+  color: rgb(150, 150, 150);
+}
+header.scrolled .navbar-1{
+  /* background: rgba(90, 89, 89, 0.7); */
+  backdrop-filter: blur(7px);
+}
+.navbar-links a{
+  
+  font-size: 20px;
+  color:rgb(58, 58, 58);
+}
+.line{
+  width: 96%;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+/* navbar end */
+/* header */
+.header{
+  margin-top: 110px;
+}
+.header h1{
+  font-size: 104px;
+}
+.allButton{
+  width: 178px;
+  height: 41px;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 0px 0px;
+  border: none;
+}
+.z10{
+  z-index: 1000;
+}
+.padding{
+  padding: 0;
+}
+.AllButtonIcon{
+  width: 39px;
+  height: 38px;
+  display: flex;
+  background-color: white;
+  margin-left: 10px;
+  border: 3px solid  rgba(0, 0, 0, 1) ;
+}
+.img-1{
+  top: 120px;
+  z-index: 1;
+}
+.icons{
+  margin-top: 120px;
+}
+.icons .icon{
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+}
+/* header end */
+/* history */
+.history{
+  margin-top: 370px;
+}
+.history h2{
+  font-weight: 600;
+  font-size: 48px;
+}
+.history-text{
+  font-size: 24px;
+}
+/* history end */
+/* .Services */
+.Services{
+  margin-top: 120px;
+}
+ h2{
+  font-weight: 600;
+  font-size: 48px;
+}
+.text{
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  font-size: 400px;
+  color: rgba(0, 0, 0, 1);
+}
+.history-big-text{
+  font-weight: 700;
+  font-size: 56px;
+  color: rgba(0, 0, 0, 1);
+}
+.history-p{
+  font-weight: 500;
+  font-size: 24px;
+}
+.history-p:nth-of-type(1){
+  margin-top: 100px;
+}
+.history-p:nth-of-type(2){
+  margin-top: 80px;
+}
+.history-p:nth-of-type(3){
+  margin-top: 100px;
+}
+.history-p:nth-of-type(4){
+  margin-top: 60px;
+}
+.history-right-text p{
+  font-size: 19px;
+}
+/* .Services end */
+/* project */
+.project{
+  margin-top: 150px;
+}
+.project-h4{
+  font-weight: 500;
+  margin-top: 10px;
+  height: 15px;
+  font-size: 20px;
+}
+.project-p{
+  font-size: 18px;
+}
+.project-h1{
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  font-size: 400px;
+  color: rgba(0, 0, 0, 1);
+}
+/* project end */
+/* team */
+.team{
+  margin-top: 100px;
+}
+.team-p{
+  font-size: 24px;
+}
+.img-card .text{
+  background-color: rgba(248, 248, 248, 1);
+  height: 72px;
+  padding: 10px 10px;
+}
+.img-card h6{
+  font-size: 24px;
+  height: 20px;
+}
+.img-card p{
+  font-size: 20px;
+  color: rgba(178, 178, 178, 1);
+}
+.team-p1{
+  font-weight: 500;
+  font-size: 24px;
+}
+.team-p1:nth-of-type(1){
+  margin-top: 130px;
+}
+.team-p1:nth-of-type(2){
+  margin-top: 120px;
+}
+.team-p1:nth-of-type(3){
+  margin-top: 90px;
+}
+.team-p1:nth-of-type(4){
+  margin-top: 120px;
+}
+/* team end */
+/* blog */
+.blog{
+  margin-top: 100px;
+}
+.blog-text{
+  height: 168px;
+  overflow: hidden;
+  background: rgba(248, 248, 248, 1);
+  padding: 10px 10px 10px 10px;
+  border-radius: 00px 0px 10px 10px;
+}
+.blog-text span{
+  margin-top: 16px;
+  color: rgba(178, 178, 178, 1);
+  font-size: 20px;
+}
+.blog-text h4{
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 5px;
+}
+/* blog end */
+/* project */
+.projects-h4{
+  font-weight: 600;
+  font-size: 40px;
+}
+.project p{
+  height: 10px;
+}
+/* project end */
+/* futer */
+.futter .icon{
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+}
+.futter-container{
+  padding: 80px 80px;
+}
+/* futer end */
